@@ -10,4 +10,10 @@
     <string name="hello_first_fragment">Stat10Pct</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="button">Run</string>
+    <string name="popNum">1000</string>
+    <string name="propNum">500</string>
+    <string name="n">700</string>
+    <string name="sampleNum">2000</string>
+    <string name="bucket">0.005</string>
+    <string name="factor">20</string>
 </resources>

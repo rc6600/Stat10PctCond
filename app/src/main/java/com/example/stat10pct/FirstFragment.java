@@ -7,11 +7,9 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.fragment.NavHostFragment;
 
 import java.util.HashSet;
 import java.util.Random;
@@ -42,12 +40,12 @@ public class FirstFragment extends Fragment {
         bucketEditText = fragmentFirstLayout.findViewById(R.id.editBucket);
         factorEditText = fragmentFirstLayout.findViewById(R.id.editFactor);
         withReplacementSwitch = fragmentFirstLayout.findViewById(R.id.switch1);
-        popNumEditText.setText("1000");
-        propNumEditText.setText("500");
-        nEditText.setText("600");
-        sampleNumEditText.setText("2000");
-        bucketEditText.setText("0.025");
-        factorEditText.setText("20");
+        popNumEditText.setText(R.string.popNum);
+        propNumEditText.setText(R.string.propNum);
+        nEditText.setText(R.string.n);
+        sampleNumEditText.setText(R.string.sampleNum);
+        bucketEditText.setText(R.string.bucket);
+        factorEditText.setText(R.string.factor);
         graphTextView.setText(execute());
 
         return fragmentFirstLayout;
